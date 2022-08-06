@@ -1,0 +1,10 @@
+var math = 75.25;
+var bio = 65;
+var chemistry = 80;
+var phy =35.45;
+var bangla = 99.50;
+var totalMark = math + bio + chemistry + phy + bangla;
+console.log(totalMark);
+var avarage = totalMark / 5;
+var avaragetwodeccimal = avarage.toFixed(2);
+console.log (avaragetwodeccimal);
